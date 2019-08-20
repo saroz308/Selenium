@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [HomePageSuite]">
+  <test thread-count="5" verbose="0" name="HomePageTest(failed)">
+    <classes>
+      <class name="in.amazon.tests.HomepageTests">
+        <methods>
+          <include name="cleanup"/>
+          <include name="afterATestcase"/>
+          <include name="postCleanup"/>
+          <include name="beforeSuite"/>
+          <include name="verifyTitleOfThePage"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- in.amazon.tests.HomepageTests -->
+    </classes>
+  </test> <!-- HomePageTest(failed) -->
+</suite> <!-- Failed suite [HomePageSuite] -->

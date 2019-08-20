@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Guru99Suite">
+  <test thread-count="5" name="Guru99Test">
+  <parameter name = "user" value ="mngr206306"></parameter>
+  <parameter name = "pass" value ="yqebupa"></parameter>
+    <classes>
+      <class name="com.guru9Project9.com.Guru99Test"/>
+    </classes>
+  </test> <!-- Guru99Test -->
+</suite> <!-- Guru99Suite -->
